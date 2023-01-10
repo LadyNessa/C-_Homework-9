@@ -10,8 +10,7 @@ int GetNumbers(int x)
     }
     else
     {
-        return x - GetNumbers(x-1);
-
+        return GetNumbers(x-1);
     }
 }
 
